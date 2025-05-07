@@ -32,7 +32,7 @@ All parameters are set in the code.
 
 # Operation
 ```
-python get_screen_waveform.py
+python get_waveform.py
 ```
 > Wait trigger signal\
 > If oscilloscope receives a tigger signal, its status changes to STOP.\
