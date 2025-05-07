@@ -20,21 +20,25 @@ pip install pyvisa
 # How to get waveform using trigger signal
 
 ## Default parameters
-- Number of events : 10k\
-- Number of samples : 100k\
-- Time scale : 0.1 ms / div (i.e. full range is 1 ms.)\
-- Trigger point ; 50% on the display\
-- Record fist point : 1\
-- Record last point : 100k\
-- Trigger source : Ch1\
-- Trigger threshold : -0.4 V\
-- Trigger edge : Rising\
-- Waveform source : Ch1\
-- Data format : ASCII\
-- Amplitude data bit length : 16 bit\
-- Output file name : waveform\_screen.csv\
+- Number of events : 10k
+- Number of samples : 100k
+- Time scale : 0.1 ms / div (i.e. full range is 1 ms.)
+- Trigger point ; 50% on the display
+- Record fist point : 1
+- Record last point : 100k
+- Trigger source : Ch1
+- Trigger threshold : -0.4 V
+- Trigger edge : Rising
+- Waveform source : Ch1
+- Data format : ASCII
+- Amplitude data bit length : 16 bit
+- Output file name : waveform\_screen.csv
 
-# Operation
+# How to use
+```
+python get_waveform.py -h
+```
+You can check the options.
 ```
 python get_waveform.py <options and arguments>
 ```
